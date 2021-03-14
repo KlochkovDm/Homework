@@ -1,7 +1,7 @@
 package ru.geekbrains.lessons;
 
 public class lesson1 {
-
+    // Домашняя работа. Урок 1
     // Метод 1
     private static double calculate(int a, int b, int c, int d) {
         return a * (b + (c * 1.0 / d));
