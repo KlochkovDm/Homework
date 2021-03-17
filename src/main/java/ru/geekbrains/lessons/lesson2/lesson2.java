@@ -1,4 +1,4 @@
-package ru.geekbrains.lessons;
+package ru.geekbrains.lessons.lesson2;
 
 import java.util.Arrays;
 
@@ -83,7 +83,7 @@ public class lesson2 {
         for (int i : arr) {
             left += i;
             if (left  == sum) return true;
-            if (left > sum) return false;
+            // if (left > sum) return false;
         } return false;
 
     }
