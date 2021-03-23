@@ -1,4 +1,4 @@
-package ru.geekbrains.lessons;
+package ru.geekbrains.lessons.lesson1;
 
 public class lesson1 {
     // Домашняя работа. Урок 1
