@@ -22,7 +22,7 @@ public class Bowl {
 
 
     public void decreaseFood (int amount) {
-        if ((getFood() - amount) >= 0){
+        if ((this.food - amount) >= 0){
             this.food -= amount;
             System.out.println("Food decreased. There are " + getFood()+ " of food left in bowl");
         }else System.out.println("Food is not enough to decrease. There are still " + getFood()+ " of food left in bowl");
